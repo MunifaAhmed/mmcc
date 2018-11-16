@@ -2,6 +2,7 @@
   "name": "model1",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://munifaahmed.github.io/mmcc",
   "dependencies": {
     "ajv": "^6.5.5",
     "react": "^16.6.0",
