@@ -1,0 +1,240 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.Links{
+  font-size: 30px;
+  padding: 20px;
+  margin: 20px;
+}
+form{
+  margin: 20px
+}
+.containerchart{
+  padding-top: 30px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 150px
+}
+
+#main{
+  width: 100%;
+  height: 100%;
+  background-image: url('/images/tree.jpeg');
+  background-size: cover;
+}
+
+#calchart{
+ border: solid black 1px;
+ margin: 5px 
+}
+
+nav{
+  width: 100%;
+  height: 120px;
+  background-color: #f3c210da;
+  line-height: 115px;
+  
+}
+
+#links:hover{ 
+  color: goldenrod;
+  text-decoration: none; 
+  font-weight: none 
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.3s all;
+  
+}
+nav ul li:hover{
+  background-color: rgba(250, 246, 246, 0.95);
+  font-weight: bolder;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: rgb(222, 233, 222); 
+  padding: 60px;
+  font-size: 30px;
+  
+}
+#links{
+  color: black 
+}
+
+#contenthome{
+  background-color: rgba(250, 246, 246, 0.8);
+  margin-top: 200px;
+  margin-bottom: 650px;
+  padding: 40px;
+}
+#contenthomeCal{
+  background-color: rgba(250, 246, 246, 0.8);
+  margin-bottom: 150px;
+  padding: 40px;
+}
+#contenthomechart{
+  background-color: rgba(250, 246, 246, 0.95);
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 40px;
+}
+
+#homep1{
+  font-size: 20px;
+  font-weight: bold;
+}
+.toolsbutton {
+  background-color: #f3c210da;
+  border: none;
+  color: black; 
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 5px;
+  cursor: pointer;
+  font-size:20px;
+  border-radius: 5px;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Cormorant Garamond', serif;
+}
+button:hover{
+  text-decoration: none; 
+  font-weight: bold; 
+  background-color: rgba(247, 216, 41, 0.959);
+}
+
+#loginbutton{
+  width:100%
+}
+.col{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgba(250, 246, 246, 0.8)
+}
+h3{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#LM{
+  margin-top: 80px;
+}
+#LMheader{
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Cormorant Garamond', serif;
+}
+#LMsubheader{
+  font-weight: bold;
+  font-size: 23px;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Cormorant Garamond', serif;
+  border-style: solid;
+  background-color:  #eebc32dc;
+ 
+}
+#homeheader{
+  padding-bottom:5px;
+  font-weight: bold;
+  font-size:40px;
+  border-bottom: 3px solid black;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Cormorant Garamond', serif;
+}
+input[type=text] {
+  padding: 5px 8px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#calculator{
+  padding-top: 30px;
+  padding-left:80px;
+  padding-right:80px;
+}
+#IC{
+  padding-top: 30px;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Cormorant Garamond', serif;
+  
+}
+#ICsub{
+  font-weight: bold;
+  font-size: 23px;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Cormorant Garamond', serif;
+  border-style: solid;
+  background-color: #eebc32dc;;
+}
+#result{
+  margin-top:30px;
+  padding:10px;
+
+}
+.group{
+  margin: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#JS{
+  font-size: 50px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Cormorant Garamond', serif;
+}
+#thankyou{
+  padding: 200px;
+  font-size: 50px;
+  font-weight: bold;
+  background-color:rgba(209, 182, 26, 0.35);
+
+}
+
+.font{
+  font-family: 'Quattrocento Sans'
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
